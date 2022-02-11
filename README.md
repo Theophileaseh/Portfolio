@@ -4,6 +4,9 @@
 
 > Portfolio: setup and mobile version skeleton.
 
+## Screenshot
+
+[Screenshot](./images/screenshot.png)
 
 ## Built With
 
