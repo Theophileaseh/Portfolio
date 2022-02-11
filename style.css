@@ -29,7 +29,7 @@ body {
   float: left;
 }
 
-.header nav li a i {
+.header nav .fa-bars {
   font-size: 30px;
   color: #f4f4f7;
 }
@@ -123,9 +123,10 @@ section .circle2 {
   letter-spacing: 0.03em;
   text-align: center;
   color: #9490ff;
+  padding: 10px;
 }
 
-.portfolio ul li {
+.portfolio .port-list {
   width: 84px;
   top: 7.1666259765625px;
   font-size: 13px;
@@ -165,8 +166,12 @@ section .circle2 {
   text-align: center;
 }
 
+.portfolio .social-list ul {
+  display: inline-flex;
+}
+
 .portfolio .social-list ul li {
-  width: 0;
+  list-style-type: none;
 }
 
 .social-list ul li a i {
