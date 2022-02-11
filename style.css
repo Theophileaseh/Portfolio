@@ -39,8 +39,8 @@ body {
 }
 
 .portfolio .author,
- .profession,
- p {
+.profession,
+p {
   margin: 0 auto;
 }
 
@@ -57,16 +57,16 @@ section .circle1 {
 
 section .circle2 {
   position: absolute;
-  width: 70;
-  height: 70;
+  width: 70px;
+  height: 70px;
   background: #edecff;
   filter: blur(20px);
   right: -30px;
   border-radius: 100%;
-  top: 550;
+  top: 550px;
 }
 
-section .author {
+.portfolio .author {
   position: static;
   top: 0;
   font-weight: bold;
@@ -112,8 +112,8 @@ section .author {
 }
 
 .portfolio .languages,
- .skills,
- .frameworks {
+.skills,
+.frameworks {
   width: 107px;
   left: 8px;
   top: 5.3333740234375px;
@@ -151,7 +151,7 @@ section .author {
 }
 
 .portfolio .next {
-  margin-bottom: 50;
+  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -175,8 +175,7 @@ section .author {
   margin: 10px;
 }
 
-
-.next ul li a {
+.portfolio .next ul li a {
   position: static;
   width: 47px;
   top: 4px;
@@ -190,6 +189,6 @@ section .author {
   text-decoration: none;
 }
 
-.next .arrow-span {
+.portfolio .next .arrow-span {
   margin-left: 10px;
 }
