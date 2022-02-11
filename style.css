@@ -1,6 +1,6 @@
 body {
   background: #191765;
-  font-family: roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   margin: 0;
   padding: 0;
@@ -165,7 +165,7 @@ section .circle2 {
   text-align: center;
 }
 
-.social-list ul li {
+.portfolio .social-list ul li {
   width: 0;
 }
 
