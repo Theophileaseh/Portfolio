@@ -6,7 +6,7 @@
 
 ## Screenshot
 
-[Screenshot](./images/screenshot.png)
+[Screenshot](./screenshot.png)
 
 ## Built With
 
