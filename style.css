@@ -17,6 +17,7 @@ body {
 .header header {
   padding-right: 30px;
   padding-left: 30px;
+  display: flex;
 }
 
 .header header .logo {
