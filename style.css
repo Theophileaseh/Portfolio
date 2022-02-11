@@ -1,5 +1,5 @@
-body
-  {
+body 
+ {
   background: #191765;
   font-family: roboto;
   font-style: normal;
@@ -8,22 +8,22 @@ body
   overflow-x: hidden;
 }
 
-.header
-  {
+.header 
+ {
   width: 375px;
   top: 44px;
   border-radius: 0;
   padding-top: 20px;
 }
 
-.header header
-  {
+.header header 
+ {
   padding-right: 30px;
   padding-left: 30px;
 }
 
-.header header .logo
-  {
+.header header .logo 
+ {
   color: white;
   font-size: 22px;
   font-weight: 500;
@@ -33,26 +33,26 @@ body
   float: left;
 }
 
-.header nav li a i
-  {
+.header nav li a i 
+ {
   font-size: 30px;
   color: #f4f4f7;
 }
 
-.header header nav
-  {
+.header header nav 
+ {
   float: right;
 }
 
 .portfolio .author,
  .profession,
- p
-  {
+ p 
+ {
   margin: 0 auto;
 }
 
-section .circle1
-  {
+section .circle1 
+ {
   position: absolute;
   width: 184px;
   height: 184px;
@@ -63,8 +63,8 @@ section .circle1
   border-radius: 100%;
 }
 
-section .circle2
-  {
+section .circle2 
+ {
   position: absolute;
   width: 70;
   height: 70;
@@ -75,8 +75,8 @@ section .circle2
   top: 550;
 }
 
-section .author
-  {
+section .author 
+ {
   position: static;
   top: 0;
   font-weight: bold;
@@ -91,8 +91,8 @@ section .author
   padding-right: 100px;
 }
 
-.portfolio .profession
-  {
+.portfolio .profession 
+ {
   font-size: 32px;
   font-weight: 500;
   line-height: 44px;
@@ -105,8 +105,8 @@ section .author
   margin-bottom: 40px;
 }
 
-.portfolio p
-  {
+.portfolio p 
+ {
   width: 327px;
   top: 0;
   font-size: 18px;
@@ -118,16 +118,16 @@ section .author
   margin: 0 auto;
 }
 
-.portfolio .container
-  {
+.portfolio .container 
+ {
   display: flex;
   margin: 0 auto;
 }
 
 .portfolio .languages,
  .skills,
- .frameworks
-  {
+ .frameworks 
+ {
   width: 107px;
   left: 8px;
   top: 5.3333740234375px;
@@ -139,8 +139,8 @@ section .author
   color: #9490ff;
 }
 
-.portfolio ul li
-  {
+.portfolio ul li 
+ {
   width: 84px;
   top: 7.1666259765625px;
   font-size: 13px;
@@ -153,8 +153,8 @@ section .author
   display: inline-table;
 }
 
-.divider
-  {
+.divider 
+ {
   height: 0;
   width: 327px;
   right: 0;
@@ -166,39 +166,39 @@ section .author
   margin-bottom: 40px;
 }
 
-.portfolio .next
-  {
+.portfolio .next 
+ {
   margin-bottom: 50;
   text-align: center;
 }
 
-.portfolio .next li
-  {
+.portfolio .next li 
+ {
   display: block;
   margin: 0 auto;
 }
 
-.portfolio .social-list
-  {
+.portfolio .social-list 
+ {
   margin-top: 30px;
   text-align: center;
 }
 
-.social-list ul li
-  {
+.social-list ul li 
+ {
   width: 0;
 }
 
-.social-list ul li a i
-  {
+.social-list ul li a i 
+ {
   font-size: 20px;
   color: white;
   margin: 10px;
 }
 
 
-.next ul li a
-  {
+.next ul li a 
+ {
   position: static;
   width: 47px;
   top: 4px;
@@ -212,7 +212,7 @@ section .author
   text-decoration: none;
 }
 
-.next .arrow-span
-  {
+.next .arrow-span 
+ {
   margin-left: 10px;
 }
