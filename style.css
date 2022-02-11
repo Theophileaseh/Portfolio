@@ -6,7 +6,7 @@ body
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  }
+}
 
 .header
   {
@@ -14,13 +14,13 @@ body
   top: 44px;
   border-radius: 0;
   padding-top: 20px;
-  }
+}
 
 .header header
   {
   padding-right: 30px;
   padding-left: 30px;
-  }
+}
 
 .header header .logo
   {
@@ -31,25 +31,25 @@ body
   letter-spacing: 0.03em;
   width: 50%;
   float: left;
-  }
+}
 
 .header nav li a i
   {
   font-size: 30px;
   color: #f4f4f7;
-  }
+}
 
 .header header nav
   {
   float: right;
-  }
+}
 
 .portfolio .author,
  .profession,
  p
   {
   margin: 0 auto;
-  }
+}
 
 section .circle1
   {
@@ -61,7 +61,7 @@ section .circle1
   background: #fff;
   filter: blur(20px);
   border-radius: 100%;
-  }
+}
 
 section .circle2
   {
@@ -73,7 +73,7 @@ section .circle2
   right: -30px;
   border-radius: 100%;
   top: 550;
-  }
+}
 
 section .author
   {
@@ -89,7 +89,7 @@ section .author
   margin-left: 25px;
   padding-left: 100px;
   padding-right: 100px;
-  }
+}
 
 .portfolio .profession
   {
@@ -103,7 +103,7 @@ section .author
   top: 67px;
   margin-top: 20px;
   margin-bottom: 40px;
-  }
+}
 
 .portfolio p
   {
@@ -116,13 +116,13 @@ section .author
   text-align: center;
   color: #c8c8d4;
   margin: 0 auto;
-  }
+}
 
 .portfolio .container
   {
   display: flex;
   margin: 0 auto;
-  }
+}
 
 .portfolio .languages,
  .skills,
@@ -137,7 +137,7 @@ section .author
   letter-spacing: 0.03em;
   text-align: center;
   color: #9490ff;
-  }
+}
 
 .portfolio ul li
   {
@@ -151,7 +151,7 @@ section .author
   color: #f5f5ff;
   list-style-type: none;
   display: inline-table;
-  }
+}
 
 .divider
   {
@@ -164,37 +164,37 @@ section .author
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 40px;
-  }
+}
 
 .portfolio .next
   {
   margin-bottom: 50;
   text-align: center;
-  }
+}
 
 .portfolio .next li
   {
   display: block;
   margin: 0 auto;
-  }
+}
 
 .portfolio .social-list
   {
   margin-top: 30px;
   text-align: center;
-  }
+}
 
 .social-list ul li
   {
   width: 0;
-  }
+}
 
 .social-list ul li a i
   {
   font-size: 20px;
   color: white;
   margin: 10px;
-  }
+}
 
 
 .next ul li a
@@ -210,9 +210,9 @@ section .author
   order: 1;
   flex-grow: 0;
   text-decoration: none;
-  }
+}
 
 .next .arrow-span
   {
   margin-left: 10px;
-  }
+}
