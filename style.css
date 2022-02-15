@@ -11,7 +11,7 @@ body {
   width: 375px;
   top: 44px;
   border-radius: 0;
-  padding-top: 20px;
+  padding-top: 35px;
 }
 
 .header header {
@@ -20,14 +20,15 @@ body {
   display: flex;
 }
 
-.header header .logo {
+.header .logo {
   color: white;
   font-size: 22px;
-  font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.03em;
-  width: 50%;
+  width: 95%;
   float: left;
+  text-decoration: none;
+  font-weight: 700;
 }
 
 .header nav .fa-bars {
@@ -309,4 +310,42 @@ section .circle2 {
   filter: blur(30px);
   transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
   border-radius: 50%;
+}
+
+.contact {
+  margin-top: 90px;
+  padding: 20px;
+}
+
+.contact .contact-head {
+  color: #9390ff;
+  font-size: 32px;
+  text-align: center;
+}
+
+.contact .contact-text {
+  font-size: 16px;
+  text-align: center;
+  color: #f5f5ff;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.contact .form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact .input {
+  height: 50px;
+  font-size: 15px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+.contact .form .textarea {
+  height: 130px;
+  padding-left: 10px;
 }
