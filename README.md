@@ -7,6 +7,7 @@
 ## Screenshot
 
 ![Screenshot](./screenshot.png)
+![Screenshot](./screenshot2.png)
 
 ## Built With
 
