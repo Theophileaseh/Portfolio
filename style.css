@@ -348,4 +348,14 @@ section .circle2 {
 .contact .form .textarea {
   height: 130px;
   padding-left: 10px;
+  margin-bottom: 50px;
+}
+
+.contact .form .submit-btn {
+  padding: 20px;
+  width: max-content;
+  margin: 0 auto;
+  background: #7d73fc;
+  color: #fff;
+  border: none;
 }
