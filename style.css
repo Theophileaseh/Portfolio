@@ -22,13 +22,14 @@ body {
 
 .header .logo {
   color: white;
-  font-size: 22px;
+  font-size: 17px;
   line-height: 16px;
   letter-spacing: 0.03em;
   width: 95%;
   float: left;
   text-decoration: none;
   font-weight: 700;
+  margin-top: -17px;
 }
 
 .header nav .fa-bars {
@@ -247,7 +248,6 @@ section .circle2 {
   color: #dcdce8;
   font-weight: 350;
   font-family: system-ui;
-  margin-top: -120px;
 }
 
 .recent-work .main-works {
