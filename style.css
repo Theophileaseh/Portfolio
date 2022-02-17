@@ -325,18 +325,19 @@ section .circle2 {
 }
 }
 
-.contact {
+.footer {
   margin-top: 90px;
   padding: 20px;
+  margin-bottom: 90px;
 }
 
-.contact .contact-head {
+.footer .contact-head {
   color: #9390ff;
   font-size: 32px;
   text-align: center;
 }
 
-.contact .contact-text {
+.footer .contact-text {
   font-size: 16px;
   text-align: center;
   color: #f5f5ff;
@@ -344,27 +345,27 @@ section .circle2 {
   margin-bottom: 30px;
 }
 
-.contact .form {
+.footer .form {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 95%;
 }
 
-.contact .input {
+.footer .input {
   height: 50px;
   font-size: 15px;
   margin-bottom: 15px;
   padding-left: 10px;
 }
 
-.contact .form .textarea {
+.footer .form .textarea {
   height: 130px;
   padding-left: 10px;
   margin-bottom: 50px;
 }
 
-.contact .form .submit-btn {
+.footer .form .submit-btn {
   padding: 20px;
   width: max-content;
   margin: 0 auto;
@@ -372,3 +373,54 @@ section .circle2 {
   color: #fff;
   border: none;
 }
+
+.footer .divider {
+  width: 100%;
+}
+
+.footer .next {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.footer .next li {
+  display: block;
+  margin: 0 auto;
+}
+
+.footer .social-list {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.footer .social-list ul {
+  display: inline-flex;
+}
+
+.footer .social-list ul li {
+  list-style-type: none;
+}
+
+.social-list ul li a i {
+  font-size: 20px;
+  color: white;
+  margin: 10px;
+}
+
+.footer .next ul li a {
+  position: static;
+  width: 47px;
+  top: 4px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #a2a3ae;
+  order: 1;
+  flex-grow: 0;
+  text-decoration: none;
+}
+
+
+
+
