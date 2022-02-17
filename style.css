@@ -64,6 +64,7 @@ section .circle2 {
   height: 70px;
   background: #edecff;
   filter: blur(20px);
+
   /* right: -30px; */
   border-radius: 100%;
   top: 690px;
@@ -237,6 +238,7 @@ section .circle2 {
   transform: rotate(-36.38deg);
   margin-top: -644px;
   border-radius: 30%;
+
   /* top: -930px; */
   margin-bottom: 230px;
 }
@@ -288,6 +290,7 @@ section .circle2 {
   width: 40.28px;
   height: 261.6px;
   left: 347.27px;
+
   /* top: 2187.23px; */
   background: #edecff;
   filter: blur(25px);
@@ -301,6 +304,7 @@ section .circle2 {
   width: 308px;
   height: 155px;
   left: -93px;
+
   /* top: 3274px; */
   background: rgba(237, 236, 255, 0.3);
   margin-top: -469px;
@@ -308,13 +312,13 @@ section .circle2 {
   filter: blur(30px);
   margin-left: -90px;
 }
-}
 
 .recent-work .circle6 {
   position: sticky;
   width: 81.29px;
   height: 227.04px;
   left: 408.22px;
+
   /* top: 3733px; */
   background: #edecff;
   filter: blur(30px);
@@ -323,10 +327,9 @@ section .circle2 {
   margin-top: -480px;
   margin-bottom: 250px;
 }
-}
 
 .footer {
-  margin-top: 90px;
+  margin-top: 70px;
   padding: 20px;
   margin-bottom: 90px;
 }
@@ -378,16 +381,6 @@ section .circle2 {
   width: 100%;
 }
 
-.footer .next {
-  margin-bottom: 50px;
-  text-align: center;
-}
-
-.footer .next li {
-  display: block;
-  margin: 0 auto;
-}
-
 .footer .social-list {
   margin-top: 30px;
   text-align: center;
@@ -399,12 +392,6 @@ section .circle2 {
 
 .footer .social-list ul li {
   list-style-type: none;
-}
-
-.social-list ul li a i {
-  font-size: 20px;
-  color: white;
-  margin: 10px;
 }
 
 .footer .next ul li a {
@@ -421,6 +408,9 @@ section .circle2 {
   text-decoration: none;
 }
 
-
-
-
+.footer .email {
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  text-decoration: none;
+}
