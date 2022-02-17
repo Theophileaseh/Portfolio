@@ -328,7 +328,7 @@ section .circle2 {
 .footer {
   margin-top: 90px;
   padding: 20px;
-  margin-bottom: 90px;
+  margin-bottom: 90px !important;
 }
 
 .footer .contact-head {
