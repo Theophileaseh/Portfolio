@@ -492,7 +492,7 @@ section .circle2 {
   .portfolio .social-next .social-list {
     text-align: center;
     width: 60%;
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .recent-work {
@@ -585,7 +585,7 @@ section .circle2 {
 
   .desktop-footer {
     margin: 0 auto;
-    padding: 0px;
+    padding: 0;
   }
 
   .footer .contact-text {
@@ -599,7 +599,7 @@ section .circle2 {
 
   .footer .inputs {
     display: flex;
-    padding-left: 0px;
+    padding-left: 0;
     margin-bottom: -2px;
   }
 
