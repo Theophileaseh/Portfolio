@@ -429,7 +429,7 @@ section .circle2 {
   display: none;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 992px) {
   .header header {
     padding-left: 90px;
     padding-right: 90px;
@@ -586,6 +586,7 @@ section .circle2 {
   .desktop-footer {
     margin: 0 auto;
     padding: 0;
+    diplay: block;
   }
 
   .footer .contact-text {
