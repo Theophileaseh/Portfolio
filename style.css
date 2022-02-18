@@ -118,7 +118,6 @@ section .circle2 {
 .portfolio .container {
   display: flex;
   margin: 0 auto;
-  display: flex;
   width: 0%;
   justify-content: center;
 }
@@ -431,8 +430,7 @@ section .circle2 {
 }
  
  @media screen and (min-width: 769px) {
-
-  .header header{
+  .header header {
     padding-left: 90px;
     padding-right: 90px;
   }
@@ -461,7 +459,6 @@ section .circle2 {
     top: 157px;
     width: 154px;
     height: 154px;
-
   }
 
   section .circle2 {
@@ -471,12 +468,13 @@ section .circle2 {
     top: 690px;
     left: 953px;
   }
+
   .portfolio .social-next {
     display: flex;
     justify-content: center;
     width: 90%;
     margin: 0 auto;
-   }
+  }
 
   .portfolio .social-next .next-1 {
     display: flex;
@@ -485,7 +483,7 @@ section .circle2 {
   .portfolio .social-next .next {
     text-align: center;
     width: 20%;
-   }
+  }
 
   .portfolio .next ul li a {
     font-size: 15px;
@@ -495,26 +493,26 @@ section .circle2 {
     text-align: center;
     width: 60%;
     margin-top: 0px;
-   }
+  }
 
-   .recent-work {
+  .recent-work {
     margin-top: 70px;
     padding: 80px;
-   }
+  }
 
   .recent-work .rw {
     width: 100%;
     margin-left: 60px;
     margin-bottom: -10px;
-   }
+  }
 
   .recent-work .divider {
     width: 90%;
-   }
+  }
 
   .recent-work .work1 {
     display: flex;
-   }
+  }
 
   .recent-work .flex-opposite {
     flex-direction: row-reverse;
@@ -523,7 +521,7 @@ section .circle2 {
   .recent-work .work1 .img1 {
     width: 50%;
     margin: 20px;
-   }
+  }
 
   .recent-work .work1 .info1 {
     width: 50%;
@@ -544,7 +542,6 @@ section .circle2 {
     position: sticky;
     width: 90.28px;
     height: 361.6px;
-    /* top: 207.23px; */
     background: #edecff;
     filter: blur(15px);
     transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
@@ -628,3 +625,4 @@ section .circle2 {
     width: 100%;
   }
  }
+ 
