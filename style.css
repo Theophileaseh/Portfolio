@@ -586,7 +586,7 @@ section .circle2 {
   .desktop-footer {
     margin: 0 auto;
     padding: 0;
-    diplay: block;
+    diplay: inherit;
   }
 
   .footer .contact-text {
@@ -626,4 +626,3 @@ section .circle2 {
     width: 100%;
   }
 }
-
