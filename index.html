@@ -28,9 +28,25 @@
             <h2>NT</h2>
          </a>
          <nav>
-               <a href="">
+               <a href="" class="mobile-button">
                   <i class="fa-solid fa-bars"></i>
                </a>
+               <ul class="menu-list">
+                  <li class="menu-items">
+                     <a class="nav-items" href="">Portfolio</a>
+                  </li>
+                  <li class="menu-items">
+                     <a class="nav-items" href="">About</a>
+                  </li>
+                  <li class="menu-items">
+                     <a class="nav-items" href="">Contact</a>
+                  </li>
+                  <li class="menu-items">
+                     <a class="nav-items" href="">
+                        <i class="fa-solid fa-envelope"></i>
+                     </a>
+                  </li>
+               </ul>
          </nav>     
       </header>
    </section>
@@ -76,44 +92,56 @@
          </div>
       </div>
       <div class="divider"></div>
-      <div class="social-list">
-         <ul>
-            <li>
-               <a href="">
-                  <i class="fa-brands fa-github"></i>
-               </a>
-            </li>
-            <li>
-               <a href="">
-                  <i class="fa-brands fa-linkedin-in"></i>
-               </a>
-            </li>
-            <li>
-               <a href="">
-                  <i class="fa-regular fa-hand-peace"></i>
-               </a>
-            </li>
-            <li>
-               <a href="">
-                  <i class="fa-brands fa-twitter"></i>
-               </a>
-            </li>
-            <li>
-               <a href="">
-                  <i class="fa-solid fa-m"></i>
-               </a>
-            </li>
-         </ul>
+      <div class="social-next">
+         <div class="next next-1">
+            <ul>
+               <li>
+                  <a href="">
+                     <i class="fa-solid fa-arrow-down"></i><span class="arrow-span">Work</span>
+                  </a>
+               </li>
+            </ul>
+         </div>
+         <div class="social-list">
+            <ul>
+               <li>
+                  <a href="">
+                     <i class="fa-brands fa-github"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="">
+                     <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="">
+                     <i class="fa-regular fa-hand-peace"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="">
+                     <i class="fa-brands fa-twitter"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="">
+                     <i class="fa-solid fa-m"></i>
+                  </a>
+               </li>
+            </ul>
+         </div>
+         <div class="next">
+            <ul>
+               <li>
+                  <a href="">
+                     <i class="fa-solid fa-arrow-down"></i><span class="arrow-span">Work</span>
+                  </a>
+               </li>
+            </ul>
+         </div>
       </div>
-      <div class="next">
-         <ul>
-            <li>
-               <a href="">
-                  <i class="fa-solid fa-arrow-down"></i><span class="arrow-span">Work</span>
-               </a>
-            </li>
-         </ul>
-      </div>
+
    </section>
 
    <section class="recent-work">
@@ -140,7 +168,7 @@
          </div>
       </div>
       <div class="circle3"></div>
-      <div class="work1">
+      <div class="work1 flex-opposite">
          <div class="img1">
             <img src="images/img.png" class="image" alt="software-portfolio">
          </div>
@@ -182,7 +210,7 @@
          </div>
       </div>
       <div class="circle5"></div>
-      <div class="work1">
+      <div class="work1 flex-opposite">
          <div class="img1">
             <img src="images/img.png" class="image" alt="software-portfolio">
          </div>
@@ -204,7 +232,7 @@
       </div>
       <div class="circle6"></div>
    </section>
-   <footer class="footer">
+   <footer class="footer mobile-footer">
       <h2 class="contact-head">CONTACT US</h2>
       <p class="contact-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
       <div class="form">
@@ -213,6 +241,56 @@
             <input type="email" name="email" required class="input" value="jeremy@gmail.com" placeholder="email">
             <textarea placeholder="Enter Text Here" maxlength="500" class="textarea" required></textarea>
             <input type="submit" class="submit-btn" value="See Project">
+         </form>
+      </div>
+      <div class="divider"></div>
+      <div class="social-list">
+         <ul>
+            <li>
+               <a href="">
+                  <i class="fa-brands fa-github"></i>
+               </a>
+            </li>
+            <li>
+               <a href="">
+                  <i class="fa-brands fa-linkedin-in"></i>
+               </a>
+            </li>
+            <li>
+               <a href="">
+                  <i class="fa-regular fa-hand-peace"></i>
+               </a>
+            </li>
+            <li>
+               <a href="">
+                  <i class="fa-brands fa-twitter"></i>
+               </a>
+            </li>
+            <li>
+               <a href="">
+                  <i class="fa-solid fa-m"></i>
+               </a>
+            </li>
+         </ul>
+         <a href="mailto:theophilenwachan@gmail.com" class="email">theophilenwachan@gmail.com</a>
+      </div>
+   </footer>
+   <footer class="footer desktop-footer">
+      <h2 class="contact-head">Let's chat</h2>
+      <p class="contact-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+      <div class="form">
+         <form method="post" action="https://formspree.io/f/mknyrjkd" class="form">
+            <ul class="inputs">
+               <li class="list-input">
+                  <input type="text" name="name" id="first_name" placeholder="First Name" required maxlength="30" class="input first-name" value="Jeremy">
+               </li>
+               <li class="list-input">
+                  <input type="text" name="name" id="first_name" placeholder="Last Name" required maxlength="30" class="input last-name">
+               </li>
+            </ul>
+            <input type="email" name="email" required class="input" placeholder="Email Address">
+            <textarea placeholder="Write your message here" maxlength="500" class="textarea" required></textarea>
+            <input type="submit" class="submit-btn" value="Send">
          </form>
       </div>
       <div class="divider"></div>
