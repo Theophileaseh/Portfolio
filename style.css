@@ -306,6 +306,7 @@ section .circle2 {
   color: white;
   text-decoration: none;
   font-size: 12px;
+  transition: all 0.5s ease-out;
 }
 
 .recent-work .circle4 {
@@ -476,7 +477,7 @@ section .circle2 {
     color: #3d2795;
     border-bottom: 2px solid #fff;
     padding-bottom: 3px;
-  } 
+  }
 
   section .circle1 {
     left: 40px;
@@ -648,5 +649,9 @@ section .circle2 {
   .desktop-footer .divider {
     width: 100%;
   }
-}
 
+  .button .main-button:hover {
+    color: #7d73fc;
+    background-color: white;
+  }
+}
