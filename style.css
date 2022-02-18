@@ -584,9 +584,9 @@ section .circle2 {
   }
 
   .desktop-footer {
+    diplay: unset;
     margin: 0 auto;
     padding: 0;
-    diplay: inherit;
   }
 
   .footer .contact-text {
