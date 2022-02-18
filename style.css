@@ -428,8 +428,8 @@ section .circle2 {
 .desktop-footer {
   display: none;
 }
- 
- @media screen and (min-width: 769px) {
+
+@media screen and (min-width: 769px) {
   .header header {
     padding-left: 90px;
     padding-right: 90px;
@@ -624,5 +624,4 @@ section .circle2 {
   .desktop-footer .divider {
     width: 100%;
   }
- }
- 
+}
