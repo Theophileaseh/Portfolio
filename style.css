@@ -584,7 +584,7 @@ section .circle2 {
   }
 
   .desktop-footer {
-    diplay: unset;
+    diplay: unset!important;
     margin: 0 auto;
     padding: 0;
   }
