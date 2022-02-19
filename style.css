@@ -626,7 +626,7 @@ section .circle2 {
   }
 
   .desktop-footer {
-    display: unset;
+    display: block;
     margin: 0 auto;
     padding: 0;
   }
