@@ -32,9 +32,18 @@ body {
   margin-top: -17px;
 }
 
+.header .logo:hover {
+  transition: all 0.5s ease-out;
+  transform: rotate(360deg);
+}
+
 .header nav .fa-bars {
   font-size: 30px;
   color: #f4f4f7;
+}
+
+.header nav .fa-bars:hover {
+  color: #4c4cac;
 }
 
 .header header nav {
@@ -90,6 +99,12 @@ section .circle2 {
   padding-right: 100px;
 }
 
+.portfolio .author:hover {
+  font-size: 45px;
+  transition: all 0.5s ease-out;
+  transform: rotate(360deg);
+}
+
 .portfolio .profession {
   font-size: 32px;
   font-weight: 500;
@@ -101,6 +116,11 @@ section .circle2 {
   top: 67px;
   margin-top: 20px;
   margin-bottom: 40px;
+}
+
+.portfolio .profession:hover {
+  font-size: 36px;
+  transition: all 0.5s ease-out;
 }
 
 .portfolio p {
@@ -191,6 +211,11 @@ section .circle2 {
   margin: 10px;
 }
 
+.social-list ul li a i:hover {
+  font-size: 28px;
+  transition: all 0.5s ease-out;
+}
+
 .portfolio .next-1 {
   display: none;
 }
@@ -229,6 +254,11 @@ section .circle2 {
 
 .recent-work .img1 .image {
   width: 100%;
+}
+
+.recent-work .img1 .image:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease-out;
 }
 
 .sub1 {
@@ -293,6 +323,7 @@ section .circle2 {
   color: white;
   text-decoration: none;
   font-size: 12px;
+  transition: all 0.5s ease-out;
 }
 
 .recent-work .circle4 {
@@ -418,6 +449,11 @@ section .circle2 {
   text-decoration: none;
 }
 
+.footer .next ul li a:hover {
+  font-size: 30px;
+  transition: all 0.5s ease-out;
+}
+
 .footer .email {
   font-size: 20px;
   line-height: 28px;
@@ -452,6 +488,12 @@ section .circle2 {
     text-decoration: none;
     color: #fff;
     font-size: 15px;
+  }
+
+  .menu-list .nav-items:hover {
+    color: #3d2795;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 3px;
   }
 
   section .circle1 {
@@ -624,5 +666,10 @@ section .circle2 {
 
   .desktop-footer .divider {
     width: 100%;
+  }
+
+  .button .main-button:hover {
+    color: #7d73fc;
+    background-color: #fff;
   }
 }
