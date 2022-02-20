@@ -8,10 +8,10 @@ body {
 }
 
 .header {
-  width: 375px;
+  width: 100%;
   top: 44px;
   border-radius: 0;
-  padding-top: 20px;
+  padding-top: 35px;
 }
 
 .header header {
@@ -20,14 +20,16 @@ body {
   display: flex;
 }
 
-.header header .logo {
+.header .logo {
   color: white;
-  font-size: 22px;
-  font-weight: 500;
+  font-size: 17px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  width: 50%;
+  width: 95%;
   float: left;
+  text-decoration: none;
+  font-weight: 700;
+  margin-top: -17px;
 }
 
 .header nav .fa-bars {
@@ -37,6 +39,10 @@ body {
 
 .header header nav {
   float: right;
+}
+
+.header .menu-list {
+  display: none;
 }
 
 .portfolio .author,
@@ -62,9 +68,11 @@ section .circle2 {
   height: 70px;
   background: #edecff;
   filter: blur(20px);
-  right: -30px;
+
+  /* right: -30px; */
   border-radius: 100%;
-  top: 550px;
+  top: 690px;
+  left: 353px;
 }
 
 .portfolio .author {
@@ -110,6 +118,8 @@ section .circle2 {
 .portfolio .container {
   display: flex;
   margin: 0 auto;
+  width: 0%;
+  justify-content: center;
 }
 
 .portfolio .languages,
@@ -181,6 +191,10 @@ section .circle2 {
   margin: 10px;
 }
 
+.portfolio .next-1 {
+  display: none;
+}
+
 .portfolio .next ul li a {
   position: static;
   width: 47px;
@@ -206,7 +220,7 @@ section .circle2 {
 .recent-work .rw {
   color: #9490ff;
   font-size: 35px;
-  width: 200px;
+  width: 250px;
 }
 
 .recent-work .work1 {
@@ -226,14 +240,17 @@ section .circle2 {
 }
 
 .recent-work .circle3 {
-  position: absolute;
+  position: sticky;
   width: 40px;
   height: 482.57px;
   background: #edecff;
   filter: blur(25px);
   transform: rotate(-36.38deg);
-  margin-top: -254px;
+  margin-top: -644px;
   border-radius: 30%;
+
+  /* top: -930px; */
+  margin-bottom: 230px;
 }
 
 .recent-work .desc1 {
@@ -279,34 +296,136 @@ section .circle2 {
 }
 
 .recent-work .circle4 {
-  position: absolute;
+  position: sticky;
   width: 40.28px;
   height: 261.6px;
   left: 347.27px;
-  top: 2187.23px;
+
+  /* top: 2187.23px; */
   background: #edecff;
   filter: blur(25px);
   transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
+  margin-top: -530px;
+  margin-bottom: 330px;
 }
 
 .recent-work .circle5 {
-  position: absolute;
+  position: sticky;
   width: 308px;
   height: 155px;
   left: -93px;
-  top: 3274px;
+
+  /* top: 3274px; */
   background: rgba(237, 236, 255, 0.3);
-  filter: blur(50px);
+  margin-top: -469px;
+  margin-bottom: 380px;
+  filter: blur(30px);
+  margin-left: -90px;
 }
 
 .recent-work .circle6 {
-  position: absolute;
-  width: 101.29px;
-  height: 377.04px;
+  position: sticky;
+  width: 81.29px;
+  height: 227.04px;
   left: 408.22px;
-  top: 3733px;
+
+  /* top: 3733px; */
   background: #edecff;
   filter: blur(30px);
   transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
   border-radius: 50%;
+  margin-top: -480px;
+  margin-bottom: 250px;
 }
+
+.footer {
+  margin-top: 70px;
+  padding: 20px;
+  margin-bottom: 90px !important;
+}
+
+.footer .contact-head {
+  color: #9390ff;
+  font-size: 32px;
+  text-align: center;
+}
+
+.footer .contact-text {
+  font-size: 16px;
+  text-align: center;
+  color: #f5f5ff;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.footer .form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+}
+
+.footer .input {
+  height: 50px;
+  font-size: 15px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+.footer .form .textarea {
+  height: 130px;
+  padding-left: 10px;
+  margin-bottom: 50px;
+}
+
+.footer .form .submit-btn {
+  padding: 20px;
+  width: max-content;
+  margin: 0 auto;
+  background: #7d73fc;
+  color: #fff;
+  border: none;
+}
+
+.footer .divider {
+  width: 100%;
+}
+
+.footer .social-list {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.footer .social-list ul {
+  display: inline-flex;
+}
+
+.footer .social-list ul li {
+  list-style-type: none;
+}
+
+.footer .next ul li a {
+  position: static;
+  width: 47px;
+  top: 4px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #a2a3ae;
+  order: 1;
+  flex-grow: 0;
+  text-decoration: none;
+}
+
+.footer .email {
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  text-decoration: none;
+}
+
+.desktop-footer {
+  display: none;
+}
+
