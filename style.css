@@ -429,3 +429,200 @@ section .circle2 {
   display: none;
 }
 
+@media screen and (min-width: 992px) {
+  .header header {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+
+  .mobile-button {
+    display: none;
+  }
+
+  .header .menu-list {
+    display: flex;
+  }
+
+  .menu-list .menu-items {
+    margin-right: 15px;
+    list-style-type: none;
+  }
+
+  .menu-list .nav-items {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+  }
+
+  section .circle1 {
+    left: 40px;
+    top: 157px;
+    width: 154px;
+    height: 154px;
+  }
+
+  section .circle2 {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top: 690px;
+    left: 953px;
+  }
+
+  .portfolio .social-next {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .portfolio .social-next .next-1 {
+    display: flex;
+  }
+
+  .portfolio .social-next .next {
+    text-align: center;
+    width: 20%;
+  }
+
+  .portfolio .next ul li a {
+    font-size: 15px;
+  }
+
+  .portfolio .social-next .social-list {
+    text-align: center;
+    width: 60%;
+    margin-top: 0;
+  }
+
+  .recent-work {
+    margin-top: 70px;
+    padding: 80px;
+  }
+
+  .recent-work .rw {
+    width: 100%;
+    margin-left: 60px;
+    margin-bottom: -10px;
+  }
+
+  .recent-work .divider {
+    width: 90%;
+  }
+
+  .recent-work .work1 {
+    display: flex;
+  }
+
+  .recent-work .flex-opposite {
+    flex-direction: row-reverse;
+  }
+
+  .recent-work .work1 .img1 {
+    width: 50%;
+    margin: 20px;
+  }
+
+  .recent-work .work1 .info1 {
+    width: 50%;
+  }
+
+  .recent-work .circle3 {
+    position: sticky;
+    width: 40px;
+    height: 482.57px;
+    background: #edecff;
+    filter: blur(20px);
+    margin-top: -444px;
+    border-radius: 30%;
+    margin-bottom: -50px;
+  }
+
+  .recent-work .circle4 {
+    position: sticky;
+    width: 90.28px;
+    height: 361.6px;
+    background: #edecff;
+    filter: blur(15px);
+    transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
+    margin-top: -320px;
+    margin-bottom: -50px;
+    left: 1203px;
+    border-radius: 100%;
+    margin-right: -10000px;
+  }
+
+  .recent-work .circle5 {
+    position: absolute;
+    width: 258px;
+    height: 128px;
+    top: 2954px;
+    background: rgb(255 255 255);
+    margin-top: -469px;
+    margin-bottom: 380px;
+    filter: blur(20px);
+    margin-left: 80px;
+    border-radius: 100%;
+  }
+
+  .recent-work .circle6 {
+    position: sticky;
+    width: 150px;
+    height: 427.04px;
+    background: #edecff;
+    filter: blur(10px);
+    transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
+    border-radius: 50%;
+    margin-top: -620px;
+    margin-bottom: 250px;
+    left: 1097px;
+    margin-right: -5000px;
+  }
+
+  .mobile-footer {
+    display: none;
+  }
+
+  .desktop-footer {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .footer .contact-text {
+    width: 50%;
+    margin-bottom: 90px;
+  }
+
+  .desktop-footer .form {
+    width: 75%;
+  }
+
+  .footer .inputs {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: -2px;
+  }
+
+  .footer .list-input {
+    list-style-type: none;
+    width: 100%;
+  }
+
+  .footer .first-name {
+    width: 90%;
+  }
+
+  .footer .last-name {
+    width: 95%;
+  }
+
+  .footer .form .submit-btn {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .desktop-footer .divider {
+    width: 100%;
+  }
+}
