@@ -670,6 +670,6 @@ section .circle2 {
 
   .button .main-button:hover {
     color: #7d73fc;
-    background-color: white;
+    background-color: #fff;
   }
 }
