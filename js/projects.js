@@ -1,47 +1,80 @@
 const projects = [
   {
     id: 1,
-    name: 'Multi-Post Stories',
+    name: 'To Do List',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
-    featured_image: 'detail-img.svg',
+    featured_image: 'to-do-list.svg',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
-    live_link: '#',
-    source_link: '#',
+    live_link: 'https://theophileaseh.github.io/To-Do-List-Webpack/',
+    source_link: 'https://github.com/Theophileaseh/To-Do-List-Webpack',
     circle: 'circle3',
   },
   {
     id: 2,
-    name: 'Multi-Post Stories',
+    name: 'FL Events And Tours',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
-    featured_image: 'detail-img.svg',
+    featured_image: 'fl.svg',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
-    live_link: '#',
+    live_link: 'https://fleventsandtours.com/',
     source_link: '#',
     circle: 'circle4',
   },
   {
     id: 3,
-    name: 'Multi-Post Stories',
+    name: 'Portfolio',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
-    featured_image: 'detail-img.svg',
+    featured_image: 'portfoilo.svg',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
-    live_link: '#',
-    source_link: '#',
+    live_link: 'https://theophileaseh.github.io/Portfolio-setup/',
+    source_link: 'https://github.com/Theophileaseh/Portfolio-setup',
     circle: 'circle5',
   },
   {
     id: 4,
-    name: 'Multi-Post Stories',
+    name: 'Robust Events',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
-    featured_image: 'detail-img.svg',
+    featured_image: 'robust.svg',
+    technologies: ['css', 'html', 'bootstrap', 'ruby'],
+    live_link: 'https://theophileaseh.github.io/Conference-Page/',
+    source_link: 'https://github.com/Theophileaseh/Conference-Page',
+    circle: 'circle6',
+  },
+  {
+    id: 5,
+    name: 'Awesome Books',
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
+    featured_image: 'awesome-books.svg',
+    technologies: ['css', 'html', 'bootstrap', 'ruby'],
+    live_link: 'https://theophileaseh.github.io/Awesome-Books-ES6/',
+    source_link: 'https://github.com/Theophileaseh/Awesome-Books-ES6',
+    circle: 'circle3',
+  },
+  {
+    id: 6,
+    name: 'TC Design',
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
+    featured_image: 'tc-design.svg',
+    technologies: ['css', 'html', 'bootstrap', 'ruby'],
+    live_link: 'http://tcdesign.fashion/',
+    source_link: '#',
+    circle: 'circle4',
+  },
+  {
+    id: 6,
+    name: 'HITL',
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
+    featured_image: 'hitl.svg',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
     live_link: '#',
     source_link: '#',
-    circle: 'circle6',
+    circle: 'circle5',
   },
 ];
 
@@ -54,7 +87,7 @@ const allProjects = projects
     (project) => `
         <div class="work1">
         <div class="img1">
-          <img src="images/${project.featured_image}" class="image" alt="software-portfolio">
+          <img src="img/projects/${project.featured_image}" class="image" alt="software-portfolio">
         </div>
         <div class="info1">
           <h2 class="sub1">${project.name}</h2>
@@ -88,7 +121,7 @@ const modalTemplate = (project) => `
         </div>
         <div class="modal-body">
           <img
-            src="images/${project.featured_image}"
+            src="img/projects/${project.featured_image}"
             alt="${project.name}"
             class="detail-img"
           />
