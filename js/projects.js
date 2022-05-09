@@ -4,7 +4,7 @@ const projects = [
     name: 'To Do List',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
-    featured_image: 'to-do-list.svg',
+    featured_image: 'to-do-list.png',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
     live_link: 'https://theophileaseh.github.io/To-Do-List-Webpack/',
     source_link: 'https://github.com/Theophileaseh/To-Do-List-Webpack',
@@ -15,7 +15,7 @@ const projects = [
     name: 'FL Events And Tours',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
-    featured_image: 'fl.svg',
+    featured_image: 'fl.png',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
     live_link: 'https://fleventsandtours.com/',
     source_link: '#',
@@ -26,7 +26,7 @@ const projects = [
     name: 'Portfolio',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
-    featured_image: 'portfoilo.svg',
+    featured_image: 'portfoilo.png',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
     live_link: 'https://theophileaseh.github.io/Portfolio-setup/',
     source_link: 'https://github.com/Theophileaseh/Portfolio-setup',
@@ -37,7 +37,7 @@ const projects = [
     name: 'Robust Events',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
-    featured_image: 'robust.svg',
+    featured_image: 'robust.png',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
     live_link: 'https://theophileaseh.github.io/Conference-Page/',
     source_link: 'https://github.com/Theophileaseh/Conference-Page',
@@ -48,7 +48,7 @@ const projects = [
     name: 'Awesome Books',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
-    featured_image: 'awesome-books.svg',
+    featured_image: 'awesome-books.png',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
     live_link: 'https://theophileaseh.github.io/Awesome-Books-ES6/',
     source_link: 'https://github.com/Theophileaseh/Awesome-Books-ES6',
@@ -59,7 +59,7 @@ const projects = [
     name: 'TC Design',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
-    featured_image: 'tc-design.svg',
+    featured_image: 'tc-design.png',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
     live_link: 'http://tcdesign.fashion/',
     source_link: '#',
@@ -70,7 +70,7 @@ const projects = [
     name: 'HITL',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
-    featured_image: 'hitl.svg',
+    featured_image: 'hitl.png',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
     live_link: '#',
     source_link: '#',
@@ -101,7 +101,7 @@ const allProjects = projects
           </div>
         </div>
       </div>
-      <div class="${project.circle}"></div>
+      <div class="work1 ${project.circle}"></div>
   `,
   ).join('');
 
@@ -113,7 +113,7 @@ const modalTemplate = (project) => `
           <h2 class="modal-title">${project.name}</h2>
           <button id="modal-close" onclick="modalClose()" class="modal-close">
             <img
-              src="images/Icon-Cancel.svg"
+              src="images/Icon-Cancel.png"
               alt="Close button"
               class="modal-close-icon"
             />

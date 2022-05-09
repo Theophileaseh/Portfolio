@@ -764,21 +764,17 @@ section .circle2 {
     z-index: 100;
   }
 
-  .work1:nth-child(even) {
+  .work1:nth-child(3n-1) {
     flex-direction: row-reverse;
   }
 
-  .recent-work .work1:hover {
+  .recent-work .recent-work .work1:hover {
     transform: scale(1.1);
     transition: all 0.5s ease-out;
     border: 2px solid #35457c;
     border-radius: 5px;
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.25) 0 14px 28px, rgba(0, 0, 0, 0.22) 0 10px 10px;
-  }
-
-  .recent-work .flex-opposite {
-    flex-direction: row-reverse;
   }
 
   .recent-work .work1 .img1 {
