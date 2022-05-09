@@ -18,6 +18,7 @@
 
 - CSS
 - HTML
+- JavaScript
 
 
 ## Getting Started
