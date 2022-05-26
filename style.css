@@ -378,6 +378,10 @@ section .circle2 {
   padding-left: 20px;
 }
 
+.recent-work .works:last-child {
+  border: none;
+}
+
 .recent-work .none {
   border: none !important;
 }
@@ -387,7 +391,7 @@ section .circle2 {
 }
 
 .recent-work .button .main-button {
-  background: #d7d9ee;
+  background: #fff;
   padding: 18px;
   color: #191765;
   text-decoration: none;
@@ -490,7 +494,7 @@ section .circle2 {
   padding: 20px 40px;
   width: max-content;
   margin: 0 auto;
-  background: #d7d9ee;
+  background: #fff;
   color: #191765;
   font-weight: bolder;
   border: none;
@@ -614,6 +618,10 @@ section .circle2 {
   font-size: 15px;
 }
 
+.technology:first-child {
+  border: none;
+}
+
 .end {
   border-right: 0.5px solid #81818c;
 }
@@ -729,7 +737,7 @@ section .circle2 {
     width: 180px;
     height: 180px;
     top: 690px;
-    left: 953px;
+    left: 1153px;
   }
 
   .portfolio .social-next {
@@ -832,7 +840,7 @@ section .circle2 {
     transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
     margin-top: -320px;
     margin-bottom: -50px;
-    left: 1203px;
+    left: 1403px;
     border-radius: 100%;
     margin-right: -10000px;
   }
@@ -861,7 +869,7 @@ section .circle2 {
     border-radius: 50%;
     margin-top: -620px;
     margin-bottom: 250px;
-    left: 1097px;
+    left: 1497px;
     margin-right: -5000px;
   }
 

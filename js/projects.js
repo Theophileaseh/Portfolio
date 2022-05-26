@@ -5,7 +5,7 @@ const projects = [
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
     featured_image: 'to-do-list.png',
-    technologies: ['css', 'html', 'bootstrap', 'ruby'],
+    technologies: ['css', 'html', 'javascript'],
     live_link: 'https://theophileaseh.github.io/To-Do-List-Webpack/',
     source_link: 'https://github.com/Theophileaseh/To-Do-List-Webpack',
     circle: 'circle3',
@@ -16,7 +16,7 @@ const projects = [
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
     featured_image: 'fl.png',
-    technologies: ['css', 'html', 'bootstrap', 'ruby'],
+    technologies: ['css', 'html', 'php', 'wordpress'],
     live_link: 'https://fleventsandtours.com/',
     source_link: '#',
     circle: 'circle4',
@@ -27,7 +27,7 @@ const projects = [
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
     featured_image: 'portfoilo.png',
-    technologies: ['css', 'html', 'bootstrap', 'ruby'],
+    technologies: ['css', 'html', 'javascript'],
     live_link: 'https://theophileaseh.github.io/Portfolio-setup/',
     source_link: 'https://github.com/Theophileaseh/Portfolio-setup',
     circle: 'circle5',
@@ -38,7 +38,7 @@ const projects = [
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
     featured_image: 'robust.png',
-    technologies: ['css', 'html', 'bootstrap', 'ruby'],
+    technologies: ['css', 'html', 'javascript'],
     live_link: 'https://theophileaseh.github.io/Conference-Page/',
     source_link: 'https://github.com/Theophileaseh/Conference-Page',
     circle: 'circle6',
@@ -49,7 +49,7 @@ const projects = [
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
     featured_image: 'awesome-books.png',
-    technologies: ['css', 'html', 'bootstrap', 'ruby'],
+    technologies: ['css', 'html', 'javascript'],
     live_link: 'https://theophileaseh.github.io/Awesome-Books-ES6/',
     source_link: 'https://github.com/Theophileaseh/Awesome-Books-ES6',
     circle: 'circle3',
@@ -60,7 +60,7 @@ const projects = [
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
     featured_image: 'tc-design.png',
-    technologies: ['css', 'html', 'bootstrap', 'ruby'],
+    technologies: ['css', 'html', 'php', 'wordpress'],
     live_link: 'http://tcdesign.fashion/',
     source_link: '#',
     circle: 'circle4',
@@ -71,7 +71,7 @@ const projects = [
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
     featured_image: 'hitl.png',
-    technologies: ['css', 'html', 'bootstrap', 'ruby'],
+    technologies: ['css', 'html', 'javascript', 'php'],
     live_link: '#',
     source_link: '#',
     circle: 'circle5',
@@ -115,7 +115,7 @@ const modalTemplate = (project) => `
           <h2 class="modal-title">${project.name}</h2>
           <button id="modal-close" onclick="modalClose()" class="modal-close">
             <img
-              src="images/Icon-Cancel.png"
+              src="images/Icon-Cancel.svg"
               alt="Close button"
               class="modal-close-icon"
             />
