@@ -272,6 +272,10 @@ section .circle2 {
   margin: 10px;
 }
 
+.skills .last {
+  border: none;
+}
+
 .social-list ul li a i:hover {
   font-size: 28px;
   transition: all 0.5s ease-out;
@@ -461,6 +465,10 @@ section .circle2 {
   width: 95%;
 }
 
+.inputs {
+  display: none;
+}
+
 .footer .input {
   height: 50px;
   font-size: 15px;
@@ -532,9 +540,11 @@ section .circle2 {
   transition: 0.5s ease-out;
 }
 
+/*
 .desktop-footer {
   display: none;
 }
+*/
 
 /* Modal box styles */
 
@@ -749,6 +759,11 @@ section .circle2 {
     padding: 80px;
   }
 
+  .main-work1:nth-child(even) .work1 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
   .recent-work .rw {
     width: 100%;
     margin-left: 60px;
@@ -780,6 +795,9 @@ section .circle2 {
   .recent-work .work1 .img1 {
     width: 50%;
     margin: 20px;
+    border: 8px solid #fff;
+    /* padding-bottom: 0; */
+    height: max-content;
   }
 
   .recent-work .img1 .image:hover {
@@ -826,6 +844,7 @@ section .circle2 {
     filter: blur(20px);
     margin-left: 80px;
     border-radius: 100%;
+    opacity: 60%;
   }
 
   .recent-work .circle6 {
@@ -892,6 +911,10 @@ section .circle2 {
   .button .main-button:hover {
     color: #7d73fc;
     background-color: #fff;
+  }
+
+  .full-name-input {
+    display: none;
   }
 
   /* Modal styles */

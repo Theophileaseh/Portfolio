@@ -85,6 +85,7 @@ const stopScroll = document.querySelector('.wrapper');
 const allProjects = projects
   .map(
     (project) => `
+    <div class="main-work1">
         <div class="work1">
         <div class="img1">
           <img src="img/projects/${project.featured_image}" class="image" alt="software-portfolio">
@@ -102,6 +103,7 @@ const allProjects = projects
         </div>
       </div>
       <div class="work1 ${project.circle}"></div>
+      </div>
   `,
   ).join('');
 

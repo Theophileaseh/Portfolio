@@ -177,87 +177,14 @@
         </div>
       </section>
 
-      <section class="recent-work">
+      <section class="recent-work" id="about">
         <h1 class="rw">MY RECENT WORK</h1>
         <div class="divider"></div>
 
         <div id="projects-container"></div>
       </section>
-      <footer class="footer mobile-footer" id="contact">
-        <h2 class="contact-head">CONTACT US</h2>
-        <p class="contact-text">
-          If you have an application you are interested in developing, a feature
-          that you need built or a project that needs coding. I’d love to help
-          with it
-        </p>
-        <div class="form">
-          <form
-            method="post"
-            action="https://formspree.io/f/mknyrjkd"
-            class="form" 
-            id="mobile-form"
-          >
-            <input
-              type="text"
-              name="name"
-              placeholder="Text Input"
-              required
-              maxlength="30"
-              class="input" id="name"
-            />
-            <input
-              type="email"
-              name="email"
-              required
-              class="input"
-              value="jeremy@gmail.com"
-              placeholder="email" id="email"
-            />
-            <textarea
-              placeholder="Enter Text Here"
-              maxlength="500"
-              class="textarea" id="message" name="message"
-              required
-            ></textarea>
-            <input type="submit" class="submit-btn" value="Send" />
-            <small></small>
-          </form>
-        </div>
-        <div class="divider"></div>
-        <div class="social-list">
-          <ul>
-            <li>
-              <a href="https://github.com/Theophileaseh">
-                <i class="fa-brands fa-github"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://linkedin.com/in/nwachan-theophile-342274172">
-                <i class="fa-brands fa-linkedin-in"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fa-brands fa-angellist"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/NwachanT">
-                <i class="fa-brands fa-twitter"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fa-solid fa-m"></i>
-              </a>
-            </li>
-          </ul>
-          <a href="mailto:theophilenwachan@gmail.com" class="email"
-            >theophilenwachan@gmail.com</a
-          >
-        </div>
-      </footer>
-      <footer class="footer desktop-footer">
+
+      <footer class="footer desktop-footer" id="contact">
         <h2 class="contact-head">Let's chat</h2>
         <p class="contact-text">
           If you have an application you are interested in developing, a feature
@@ -292,6 +219,14 @@
                 />
               </li>
             </ul>
+            <input
+              type="text"
+              name="name"
+              placeholder="Text Input"
+              required
+              maxlength="30"
+              class="input full-name-input" id="name"
+            />
             <input
               type="email"
               name="email"
