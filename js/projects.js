@@ -6,8 +6,8 @@ const projects = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
     featured_image: 'to-do-list.png',
     technologies: ['css', 'html', 'javascript'],
-    live_link: 'https://theophileaseh.github.io/To-Do-List-Webpack/',
-    source_link: 'https://github.com/Theophileaseh/To-Do-List-Webpack',
+    liveLink: 'https://theophileaseh.github.io/To-Do-List-Webpack/',
+    sourceLink: 'https://github.com/Theophileaseh/To-Do-List-Webpack',
     circle: 'circle3',
   },
   {
@@ -17,8 +17,8 @@ const projects = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
     featured_image: 'fl.png',
     technologies: ['css', 'html', 'php', 'wordpress'],
-    live_link: 'https://fleventsandtours.com/',
-    source_link: '#',
+    liveLink: 'https://fleventsandtours.com/',
+    sourceLink: '#',
     circle: 'circle4',
   },
   {
@@ -28,8 +28,8 @@ const projects = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
     featured_image: 'portfoilo.png',
     technologies: ['css', 'html', 'javascript'],
-    live_link: 'https://theophileaseh.github.io/Portfolio-setup/',
-    source_link: 'https://github.com/Theophileaseh/Portfolio-setup',
+    liveLink: 'https://theophileaseh.github.io/Portfolio-setup/',
+    sourceLink: 'https://github.com/Theophileaseh/Portfolio-setup',
     circle: 'circle5',
   },
   {
@@ -39,8 +39,8 @@ const projects = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
     featured_image: 'robust.png',
     technologies: ['css', 'html', 'javascript'],
-    live_link: 'https://theophileaseh.github.io/Conference-Page/',
-    source_link: 'https://github.com/Theophileaseh/Conference-Page',
+    liveLink: 'https://theophileaseh.github.io/Conference-Page/',
+    sourceLink: 'https://github.com/Theophileaseh/Conference-Page',
     circle: 'circle6',
   },
   {
@@ -50,8 +50,8 @@ const projects = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
     featured_image: 'awesome-books.png',
     technologies: ['css', 'html', 'javascript'],
-    live_link: 'https://theophileaseh.github.io/Awesome-Books-ES6/',
-    source_link: 'https://github.com/Theophileaseh/Awesome-Books-ES6',
+    liveLink: 'https://theophileaseh.github.io/Awesome-Books-ES6/',
+    sourceLink: 'https://github.com/Theophileaseh/Awesome-Books-ES6',
     circle: 'circle3',
   },
   {
@@ -61,8 +61,8 @@ const projects = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
     featured_image: 'tc-design.png',
     technologies: ['css', 'html', 'php', 'wordpress'],
-    live_link: 'http://tcdesign.fashion/',
-    source_link: '#',
+    liveLink: 'http://tcdesign.fashion/',
+    sourceLink: '#',
     circle: 'circle4',
   },
   {
@@ -72,8 +72,8 @@ const projects = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
     featured_image: 'hitl.png',
     technologies: ['css', 'html', 'javascript', 'php'],
-    live_link: '#',
-    source_link: '#',
+    liveLink: '#',
+    sourceLink: '#',
     circle: 'circle5',
   },
 ];
@@ -138,7 +138,7 @@ const modalTemplate = (project) => `
           </ul>
         </div>
         <div class="modal-footer">
-          <a href = "#" class = "modal-btn">
+          <a href = "${project.liveLink}" class = "modal-btn">
             <span class = "span">See live</span>
             <i class="fa-brands fa-github"></i>
           </a>
