@@ -47,7 +47,7 @@ const projects = [
     id: 5,
     name: 'FL Events And Tours',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
+      'FL Events and Tours is a website for a travel agency used to showcase their work and other information about them. It was developed using HTML, CSS, and PHP (Wordpress CMS).',
     featuredImage: 'fl.png',
     technologies: ['css', 'html', 'php', 'wordpress'],
     liveLink: 'https://fleventsandtours.com/',
@@ -58,7 +58,7 @@ const projects = [
     id: 6,
     name: 'Portfolio',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
+      'Software Developer portfolio website developed using HTML, CSS and Javascript',
     featuredImage: 'portfoilo.png',
     technologies: ['css', 'html', 'javascript'],
     liveLink: 'https://theophileaseh.github.io/Portfolio-setup/',
@@ -69,7 +69,7 @@ const projects = [
     id: 7,
     name: 'Robust Events',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
+      'An event website to host conferences developed using HTML, CSS and Javascript',
     featuredImage: 'robust.png',
     technologies: ['css', 'html', 'javascript'],
     liveLink: 'https://theophileaseh.github.io/Conference-Page/',
@@ -91,7 +91,7 @@ const projects = [
     id: 9,
     name: 'TC Design',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
+      'TC Design Classic is a fashion design website and an online shop used to showcase their designs. It was developed using HTML, CSS, and PHP (Wordpress CMS)',
     featuredImage: 'tc-design.png',
     technologies: ['css', 'html', 'php', 'wordpress'],
     liveLink: 'http://tcdesign.fashion/',
@@ -102,10 +102,10 @@ const projects = [
     id: 10,
     name: 'HITL',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
+      'HITL is a website for an educational institution that enables them to post their events, news, and other information concerning them. It was developed using HTML, CSS, Javascript, and PHP.',
     featuredImage: 'hitl.png',
     technologies: ['css', 'html', 'javascript', 'php'],
-    liveLink: '#',
+    liveLink: 'https://www.hitlbamenda.cm',
     sourceLink: '#',
     circle: 'circle4',
   },

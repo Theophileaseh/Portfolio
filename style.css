@@ -771,6 +771,15 @@ section .circle2 {
     padding: 80px;
   }
 
+  .recent-work .work1:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-out;
+    border: 2px solid #35457c;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: rgb(0 0 0 / 25%) 0 14px 28px, rgb(0 0 0 / 22%) 0 10px 10px;
+}
+
   .main-work1:nth-child(even) .work1 {
     display: flex;
     flex-direction: row-reverse;
@@ -807,9 +816,12 @@ section .circle2 {
   .recent-work .work1 .img1 {
     width: 50%;
     margin: 20px;
-    border: 8px solid #fff;
     /* padding-bottom: 0; */
     height: max-content;
+  }
+
+  .recent-work .work1 .image {
+    border: 8px solid #fff;
   }
 
   .recent-work .img1 .image:hover {
