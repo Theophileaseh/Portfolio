@@ -1,80 +1,113 @@
 const projects = [
   {
     id: 1,
-    name: 'To Do List',
+    name: 'Bookstore',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
-    featured_image: 'to-do-list.png',
-    technologies: ['css', 'html', 'javascript'],
-    liveLink: 'https://theophileaseh.github.io/To-Do-List-Webpack/',
-    sourceLink: 'https://github.com/Theophileaseh/To-Do-List-Webpack',
+      'Bookstore is a react-redux web application that enables one to store books from different authors.',
+    featuredImage: 'bookstore.png',
+    technologies: ['css', 'html', 'javascript', 'React', 'Redux'],
+    liveLink: 'https://react-bookstore-apps.netlify.app/',
+    sourceLink: 'https://github.com/Theophileaseh/Bookstore',
     circle: 'circle3',
   },
   {
     id: 2,
-    name: 'FL Events And Tours',
+    name: 'Math-magicians',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
-    featured_image: 'fl.png',
-    technologies: ['css', 'html', 'php', 'wordpress'],
-    liveLink: 'https://fleventsandtours.com/',
-    sourceLink: '#',
+      'Math Magicians is a website with an online calculator that enables one to perform mathematical calculations',
+    featuredImage: 'math-magicians.png',
+    technologies: ['css', 'html', 'javascript', 'React', 'Redux'],
+    liveLink: 'https://math-magicians-apps.netlify.app/',
+    sourceLink: 'https://github.com/Theophileaseh/Math-magicians',
     circle: 'circle4',
   },
   {
     id: 3,
-    name: 'Portfolio',
+    name: 'Leaderboard',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
-    featured_image: 'portfoilo.png',
-    technologies: ['css', 'html', 'javascript'],
-    liveLink: 'https://theophileaseh.github.io/Portfolio-setup/',
-    sourceLink: 'https://github.com/Theophileaseh/Portfolio-setup',
+      'Leaderboard is a poject build using HTML, CSS, Javascript, Webpack, Babel and an API. It is a platform that enables one to add users and their scores.',
+    featuredImage: 'leaderboard.png',
+    technologies: ['css', 'html', 'javascript', 'React', 'Redux'],
+    liveLink: 'https://theophileaseh.github.io/Leaderboard',
+    sourceLink: 'https://github.com/Theophileaseh/Leaderboard',
     circle: 'circle5',
   },
   {
     id: 4,
-    name: 'Robust Events',
+    name: 'To Do List',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
-    featured_image: 'robust.png',
+    featuredImage: 'to-do-list.png',
     technologies: ['css', 'html', 'javascript'],
-    liveLink: 'https://theophileaseh.github.io/Conference-Page/',
-    sourceLink: 'https://github.com/Theophileaseh/Conference-Page',
+    liveLink: 'https://theophileaseh.github.io/To-Do-List-Webpack/',
+    sourceLink: 'https://github.com/Theophileaseh/To-Do-List-Webpack',
     circle: 'circle6',
   },
   {
     id: 5,
-    name: 'Awesome Books',
+    name: 'FL Events And Tours',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
-    featured_image: 'awesome-books.png',
-    technologies: ['css', 'html', 'javascript'],
-    liveLink: 'https://theophileaseh.github.io/Awesome-Books-ES6/',
-    sourceLink: 'https://github.com/Theophileaseh/Awesome-Books-ES6',
+    featuredImage: 'fl.png',
+    technologies: ['css', 'html', 'php', 'wordpress'],
+    liveLink: 'https://fleventsandtours.com/',
+    sourceLink: '#',
     circle: 'circle3',
   },
   {
     id: 6,
-    name: 'TC Design',
+    name: 'Portfolio',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
-    featured_image: 'tc-design.png',
-    technologies: ['css', 'html', 'php', 'wordpress'],
-    liveLink: 'http://tcdesign.fashion/',
-    sourceLink: '#',
+    featuredImage: 'portfoilo.png',
+    technologies: ['css', 'html', 'javascript'],
+    liveLink: 'https://theophileaseh.github.io/Portfolio-setup/',
+    sourceLink: 'https://github.com/Theophileaseh/Portfolio-setup',
     circle: 'circle4',
   },
   {
-    id: 6,
+    id: 7,
+    name: 'Robust Events',
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
+    featuredImage: 'robust.png',
+    technologies: ['css', 'html', 'javascript'],
+    liveLink: 'https://theophileaseh.github.io/Conference-Page/',
+    sourceLink: 'https://github.com/Theophileaseh/Conference-Page',
+    circle: 'circle5',
+  },
+  {
+    id: 8,
+    name: 'Awesome Books',
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
+    featuredImage: 'awesome-books.png',
+    technologies: ['css', 'html', 'javascript'],
+    liveLink: 'https://theophileaseh.github.io/Awesome-Books-ES6/',
+    sourceLink: 'https://github.com/Theophileaseh/Awesome-Books-ES6',
+    circle: 'circle6',
+  },
+  {
+    id: 9,
+    name: 'TC Design',
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
+    featuredImage: 'tc-design.png',
+    technologies: ['css', 'html', 'php', 'wordpress'],
+    liveLink: 'http://tcdesign.fashion/',
+    sourceLink: '#',
+    circle: 'circle3',
+  },
+  {
+    id: 10,
     name: 'HITL',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. ",
-    featured_image: 'hitl.png',
+    featuredImage: 'hitl.png',
     technologies: ['css', 'html', 'javascript', 'php'],
     liveLink: '#',
     sourceLink: '#',
-    circle: 'circle5',
+    circle: 'circle4',
   },
 ];
 
@@ -88,7 +121,7 @@ const allProjects = projects
     <div class="main-work1">
         <div class="work1">
         <div class="img1">
-          <img src="img/projects/${project.featured_image}" class="image" alt="software-portfolio">
+          <img src="img/projects/${project.featuredImage}" class="image" alt="software-portfolio">
         </div>
         <div class="info1">
           <h2 class="sub1">${project.name}</h2>
@@ -123,7 +156,7 @@ const modalTemplate = (project) => `
         </div>
         <div class="modal-body">
           <img
-            src="img/projects/${project.featured_image}"
+            src="img/projects/${project.featuredImage}"
             alt="${project.name}"
             class="detail-img"
           />
