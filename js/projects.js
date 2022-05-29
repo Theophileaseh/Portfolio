@@ -45,12 +45,12 @@ const projects = [
   },
   {
     id: 5,
-    name: 'FL Events And Tours',
+    name: 'Bois 237',
     description:
-      'FL Events and Tours is a website for a travel agency used to showcase their work and other information about them. It was developed using HTML, CSS, and PHP (Wordpress CMS).',
-    featuredImage: 'fl.png',
+      'Bois 237 is a B2B platform for the purchase and sale of timber and timber related products. It was developed using HTML, CSS, and PHP (Wordpress CMS).',
+    featuredImage: 'bois237.png',
     technologies: ['css', 'html', 'php', 'wordpress'],
-    liveLink: 'https://fleventsandtours.com/',
+    liveLink: 'https://bois237.com/',
     sourceLink: '#',
     circle: 'circle3',
   },
@@ -108,6 +108,17 @@ const projects = [
     liveLink: 'https://www.hitlbamenda.cm',
     sourceLink: '#',
     circle: 'circle4',
+  },
+  {
+    id: 11,
+    name: 'FL Events And Tours',
+    description:
+      'FL Events and Tours is a website for a travel agency used to showcase their work and other information about them. It was developed using HTML, CSS, and PHP (Wordpress CMS).',
+    featuredImage: 'fl.png',
+    technologies: ['css', 'html', 'php', 'wordpress'],
+    liveLink: 'https://fleventsandtours.com/',
+    sourceLink: '#',
+    circle: 'circle5',
   },
 ];
 

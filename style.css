@@ -798,6 +798,7 @@ section .circle2 {
   .recent-work .work1 {
     display: flex;
     z-index: 100;
+    gap: 20px;
   }
 
   .work1:nth-child(3n-1) {
