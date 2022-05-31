@@ -6,6 +6,7 @@ const pageBody = document.querySelector('body');
 toggleButton.addEventListener('click', () => {
   toggleButton.classList.toggle('active');
   menu.classList.toggle('active');
+  menu.classList.add('trans');
   pageBody.classList.toggle('overflow-hidden');
 });
 
