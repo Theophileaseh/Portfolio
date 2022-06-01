@@ -392,15 +392,25 @@ section .circle2 {
 }
 
 .recent-work .button .main-button {
-  background: #fff;
+  background: #7d73fc;
   padding: 18px;
-  color: #191765;
+  color: #edecff;
   text-decoration: none;
   font-weight: bolder;
   font-size: 12px;
   transition: all 0.5s ease-out;
   border: none;
   cursor: pointer;
+}
+
+.recent-work .main-button:hover {
+  color: #fff;
+  background: #7d73fc;
+}
+
+.recent-work .main-button:focus {
+  color: #eaeaf6;
+  background: #5e42d7;
 }
 
 .recent-work .circle4 {
@@ -495,10 +505,16 @@ section .circle2 {
   padding: 20px 40px;
   width: max-content;
   margin: 0 auto;
-  background: #fff;
-  color: #191765;
+  background: #7d73fc;
+  color: #edecff;
   font-weight: bolder;
   border: none;
+}
+
+.footer .form .submit-btn:hover {
+  background: #edecff;
+  color: #7d73fc;
+  transition: all 0.5s ease-out;
 }
 
 .footer .divider {
