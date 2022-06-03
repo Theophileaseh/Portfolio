@@ -109,7 +109,7 @@ const projects = [
     sourceLink: '#',
     circle: 'circle4',
   },
-  {
+/*  {
     id: 11,
     name: 'FL Events And Tours',
     description:
@@ -119,7 +119,7 @@ const projects = [
     liveLink: 'https://fleventsandtours.com/',
     sourceLink: '#',
     circle: 'circle5',
-  },
+  }, */
 ];
 
 const projectsContainer = document.getElementById('projects-container');
