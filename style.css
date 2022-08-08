@@ -711,8 +711,8 @@ section .circle2 {
 
   .header .menu-list {
     display: flex;
-    transform: translatex(-100%);
-  transition: transform 0.4s ease-in-out;
+    transform: translateX(-100%);
+    transition: transform 0.4s ease-in-out;
   }
 
   .trans {
@@ -795,6 +795,16 @@ section .circle2 {
     padding: 80px;
   }
 
+  .recent-work .work1 {
+    display: flex;
+    z-index: 100;
+    gap: 20px;
+  }
+
+  .work1:nth-child(3n-1) {
+    flex-direction: row-reverse;
+  }
+
   .recent-work .work1:hover {
     transform: scale(1.1);
     transition: all 0.5s ease-out;
@@ -802,7 +812,7 @@ section .circle2 {
     border-radius: 5px;
     padding: 10px;
     box-shadow: rgb(0 0 0 / 25%) 0 14px 28px, rgb(0 0 0 / 22%) 0 10px 10px;
-}
+  }
 
   .main-work1:nth-child(even) .work1 {
     display: flex;
@@ -819,16 +829,6 @@ section .circle2 {
     width: 90%;
   }
 
-  .recent-work .work1 {
-    display: flex;
-    z-index: 100;
-    gap: 20px;
-  }
-
-  .work1:nth-child(3n-1) {
-    flex-direction: row-reverse;
-  }
-
   .recent-work .recent-work .work1:hover {
     transform: scale(1.1);
     transition: all 0.5s ease-out;
@@ -841,6 +841,7 @@ section .circle2 {
   .recent-work .work1 .img1 {
     width: 50%;
     margin: 20px;
+
     /* padding-bottom: 0; */
     height: max-content;
   }
