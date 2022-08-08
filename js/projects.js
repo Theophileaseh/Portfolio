@@ -113,7 +113,9 @@ const projects = [
     id: 11,
     name: 'FL Events And Tours',
     description:
-      'FL Events and Tours is a website for a travel agency used to showcase their work and other information about them. It was developed using HTML, CSS, and PHP (Wordpress CMS).',
+      'FL Events and Tours is a website for a travel agency used
+      to showcase their work and other information about them. It was developed using HTML, CSS,
+      and PHP (Wordpress CMS).',
     featuredImage: 'fl.png',
     technologies: ['css', 'html', 'php', 'wordpress'],
     liveLink: 'https://fleventsandtours.com/',
